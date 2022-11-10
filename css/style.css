@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.begin .image img{
+    height: 600px;
+    width: 1349px;
+
+}
+.begin .door img{
+    position: relative;
+    right: 500px; 
+    top: 70px;
+   
+}
+.begin .navlink{
+    position: relative;
+    bottom: 690px;
+    margin-left: 1100px;
+}
+.navlink ul{
+    display: flex;
+
+}
+.navlink ul li{
+    margin-right: 20px;
+}
+.navlink ul li a{
+    font-size: 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+} 
+.navlink ul li a span{
+    border: solid 1px transparent;
+    background: crimson;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    color: white;
+    transition: all .8s ease-in-out;
+}
+.navlink ul li a span:hover{
+    color: transparent;
+    border: solid 1px transparent;
+    background: rgba(214, 151, 163, 0.445);
+    color: black;
+}
+.rest h1{
+    position: relative;
+    bottom: 650px;
+    text-align: center;
+    color: crimson;
+    letter-spacing: .1px;
+    font-size:70px;
+}
+form{
+    text-align: center;
+}
+form input{
+    position: relative;
+    bottom: 600px;
+    padding:1rem 9rem;
+    border: solid 1px transparent;
+    border-radius: 2rem;
+}
+span button{
+    position: relative;
+    bottom: 600px;
+    padding: .8rem .8rem;
+    border: solid 1px crimson;
+    background: crimson;
+    color: white;
+    right: 55px;
+    border-radius: 2rem;
+}
+.current{
+    text-align: center;
+    position: relative;
+    bottom: 600px;
+    padding: .7rem 7.5rem;
+    right: 120px;
+    border: solid 1px rgba(114, 108, 108, 0.349);
+}
+.current p{
+    border: solid 1px rgba(114, 108, 108, 0.349);
+    width: 200px;
+    background: white;
+    margin-left: 420px;
+    padding: .7rem 7.5rem;
+    
+
+}
+.box .box1{
+    display: flex;
+    text-align: center;
+    position: relative;
+    bottom: 400px;
+    justify-content: space-between;
+}
+.box1 .first{
+    margin-right: 130px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-left: 30px;
+    
+}
+.box1 .first p{
+    font-size: 22px;
+}
+.box1 .first h1{
+    margin-bottom: 10px;
+}
+.box1 .first span{
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}
+.box1 .second{
+    text-align: center;
+    margin-right: 250px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.box1 .second h1{
+    margin-bottom: 10px;
+}
+.box1 .second p{
+    font-size: 22px;
+}
+.box1 .second span{
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}
+.box1 .third{
+    position: relative;
+    right: 40px;
+    top: 70px;
+    line-height: 25px;
+}
+.box1 .third h1{
+    margin-bottom: 10px;
+}
+.box1 .third p{
+    font-size: 22px;
+}
+.box1 .third span{
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 300px;
+}
+.mainl{
+    margin-left: 80px;
+    margin-top: 100px;
+    line-height: 25px;
+}
+.mainl h1{
+    font-size: 40px;
+}
+.mainl span h1{
+    margin-top: 20px;
+}
+.mainl p{
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 25px;
+}
+.mainl button{
+    border: solid 1px transparent;
+    font-size: 18px;
+    background: red;
+    margin-top: 15px;
+    color: white;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+.mainl button:hover{
+  background: rgb(218, 9, 9);
+  
+}
+.mainr img{
+    height: 500px;
+    margin-right: 90px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 230px;
+    background: rgba(250, 186, 201, 0.24);
+    height: 700px;
+}
+.middlel img{
+  height: 500px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.middler{
+    margin-right: 150px;
+    margin-top: 200px;
+}
+.middler h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.middler p{
+    font-size: 22px;
+    line-height: 30px;
+
+}
+.middler button{
+    border: solid 1px transparent;
+    font-size: 18px;
+    background: red;
+    margin-top: 15px;
+    color: white;
+    padding: .5rem .8rem;
+    border-radius: 2rem;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+.middler button:hover{
+  background: rgb(218, 9, 9);
+  
+}
+
+.mid{
+    position: relative;
+    bottom: 200px;
+    background: rgb(20, 20, 20);
+    color: rgb(173, 166, 166);
+    padding: 4rem 2rem;
+    transition: all .8s ease-in-out;
+    line-height: 25px;
+
+
+}
+.mid h3{
+    color: white;
+}
+.mid1{
+    display: flex;
+    justify-content: space-between;
+}
+.mid2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.imgr img{
+    margin-left: 900px;
+    position: relative;
+    bottom: 200px;
+}
+footer .nav{
+    background: rgb(20, 20, 20);
+    color: rgb(173, 166, 166);
+}
+.nav img{
+    margin-top: 10px;
+}
+.nav ul{
+    display: flex;
+}
+.nav img{
+    position: relative;
+    top: 20px;
+}
+.nav li{
+    margin-left: 120px;
+
+}
